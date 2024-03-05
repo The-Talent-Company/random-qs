@@ -10,7 +10,7 @@ Playing <em>Random Questions</em> has been a tradition for us at The Talent Comp
 
 Investing in HR Tech is an integral part of our history at The Talent Company. AlexisHR was the first investment of ours that made it all the way.
 
-This small application was open sourced as a farewell gift when AlexisHR was bought by Simployer.
+This small application was open sourced as a farewell gift when AlexisHR was bought by Simployer. It uses the [AlexisHR API](https://docs.alexishr.com/) to get team member names.
 
 ## 💻 Run locally
 

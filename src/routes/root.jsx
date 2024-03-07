@@ -30,7 +30,7 @@ export default function Root() {
         <EmptyState />
       )}
       {!routedata.names && !routedata.questions && routedata.apikey && (
-        <div className="max-w-[40rem] mt-24 space-y-4 rounded-md bg-zinc-900 p-8 ml-[450px]">
+        <div className="max-w-[40rem] mt-24 space-y-4 rounded-md bg-zinc-100 dark:bg-zinc-900 p-8 ml-[450px]">
           <p>You need both questions and names.</p>
           <div className="flex gap-4 mt-4">
             <Link to="/questions">
@@ -53,7 +53,7 @@ export default function Root() {
         </div>
       )}
       {routedata.names && !routedata.questions && (
-        <div className="max-w-[40rem] mt-24 space-y-4 rounded-md bg-zinc-900 p-8 ml-[450px]">
+        <div className="max-w-[40rem] mt-24 space-y-4 rounded-md bg-zinc-100 dark:bg-zinc-900 p-8 ml-[450px]">
           <p>Almost there. You also need questions.</p>
           <Link to="/questions">
             <Button className="mt-4">
@@ -66,7 +66,7 @@ export default function Root() {
         </div>
       )}
       {!routedata.names && routedata.questions && (
-        <div className="max-w-[40rem] mt-24 space-y-4 rounded-md bg-zinc-900 p-8 ml-[450px]">
+        <div className="max-w-[40rem] mt-24 space-y-4 rounded-md bg-zinc-100 dark:bg-zinc-900 p-8 ml-[450px]">
           <p>Looks like you got questions but no names.</p>
           <Link to="/names">
             <Button className="mt-4">
@@ -129,7 +129,7 @@ export async function rootLoader() {
 
 function EmptyState() {
   return (
-    <div className="max-w-[40rem] mt-24 ml-[32.125rem] space-y-4 rounded-md bg-zinc-900 p-8">
+    <div className="max-w-[40rem] mt-24 ml-[32.125rem] space-y-4 rounded-md bg-zinc-100 dark:bg-zinc-900 p-8">
       <h1 className="text-[2rem] font-bold">Random questions for your team</h1>
       <p>It goes a little something like this...</p>
       <p>

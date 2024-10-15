@@ -12,7 +12,7 @@
   "dependencies": {
     "@hono/node-server": "1.11.0",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
-    "hono": "^4.0.5",
+    "hono": "^4.6.5",
     "isbot": "^5.1.0"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 # --- Step 1
-FROM node:20-bookworm-slim AS base
-ENV NODE_ENV production
+FROM node:22-bookworm-slim AS base
+ENV NODE_ENV=production
 WORKDIR /app
 
 

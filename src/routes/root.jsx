@@ -84,7 +84,7 @@ export default function Root() {
             persons={routedata.names
               .filter((name) => name.active)
               .map((name) => name.name)}
-            question={q_idx ? routedata.questions[q_idx] : null}
+            question={q_idx !== undefined ? routedata.questions[q_idx] : null}
             getRandomQ={_getRandomQ}
           />
           <div className="flex gap-2 justify-center mt-12 lg:mt-4 mx-auto">

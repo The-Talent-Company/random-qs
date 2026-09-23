@@ -8,7 +8,7 @@ import {
   useActionData,
   useSubmit,
   useRouteLoaderData,
-} from "react-router-dom";
+} from "react-router";
 import { UserRoundCheck, UserRoundX, Trash2 } from "lucide-react";
 import { CONSTANTS } from "@/constants.js";
 

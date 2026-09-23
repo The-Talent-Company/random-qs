@@ -1,5 +1,5 @@
 import { MessageCircleQuestion, Settings, UsersRound } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import { ModeToggle } from "@/components/mode-toggle.tsx";
 
 export default function Nav() {

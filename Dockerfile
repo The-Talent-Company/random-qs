@@ -1,5 +1,5 @@
 # --- Step 1
-FROM node:22-bookworm-slim AS base
+FROM node:24-bookworm-slim AS base
 ENV NODE_ENV=production
 WORKDIR /app
 

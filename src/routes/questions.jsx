@@ -8,7 +8,7 @@ import {
   useSubmit,
   redirect,
   useRouteLoaderData,
-} from "react-router-dom";
+} from "react-router";
 
 import { CONSTANTS } from "@/constants.js";
 import Notification from "@/components/notification.jsx";

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { createPortal } from "react-dom";
-import { Form, Link, redirect, useRouteLoaderData } from "react-router-dom";
+import { Form, Link, redirect, useRouteLoaderData } from "react-router";
 import Notification from "@/components/notification.jsx";
 import { CONSTANTS } from "@/constants.js";
 
